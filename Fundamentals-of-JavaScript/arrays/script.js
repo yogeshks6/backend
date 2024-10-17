@@ -23,8 +23,13 @@
 
 
 // find
-var arr = [1, 2, 3, 4, 5];
-var ans = arr.find(function (val) {
-    if (val === 12) { return val }
-})
-console.log(ans)
+// var arr = [1, 2, 3, 4, 5];
+// var ans = arr.find(function (val) {
+//     if (val === 12) { return val }
+// })
+// console.log(ans);
+
+
+// var arr = [1, 2, 3, 4, 5];
+// var ans = arr.indexOf(12)
+// console.log(ans)
