@@ -10,5 +10,7 @@
 // obj.age = 25; "we can change the value of object for this method" 
 
 function abcd(a, b, c, d) {
-
+    return 12;
 }
+
+var ans = abcd();
