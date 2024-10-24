@@ -1,5 +1,5 @@
 // npm init => package.json
-const fs = require('fs');
+// const fs = require('fs');
 
 // write file
 // fs.writeFile("my.txt", "hey hello", function (err) {
@@ -48,3 +48,21 @@ const fs = require('fs');
 //     if (err) console.log(err);
 //     else console.log("removed")
 // })
+
+
+
+
+
+
+
+
+
+
+
+
+// http
+const http = require('http');
+const server = http.createServer(function (req, res) {
+    res.end("hello world")
+})
+server.listen(3000);
