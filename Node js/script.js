@@ -43,4 +43,8 @@ const fs = require('fs');
 // })
 
 
-rmdir
+// rmdir we replace this name "rmdir" into "rm"
+// fs.rmdir("./copy", { recursive: true }, function (err) {
+//     if (err) console.log(err);
+//     else console.log("removed")
+// })
