@@ -1,5 +1,4 @@
 // npm init => package.json
-// unlink
 const fs = require('fs');
 
 // write file
@@ -35,3 +34,13 @@ const fs = require('fs');
 //     if (err) console.error(err.message);
 //     else console.log("complete");
 // })
+
+
+// unlink
+// fs.unlink("hello.txt", function (err) {
+//     if (err) console.log(err);
+//     else console.log("removed");
+// })
+
+
+rmdir
