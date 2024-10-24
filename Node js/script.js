@@ -24,7 +24,14 @@ const fs = require('fs');
 
 
 // copyfile
-fs.copyFile("hello.txt", "./copy/copy.txt", function (err) {
-    if (err) console.error(err);
-    else console.log("complete");
-})
+// fs.copyFile("hello.txt", "./copy/copy.txt", function (err) {
+//     if (err) console.error(err);
+//     else console.log("complete");
+// })
+
+
+// copyfile error
+// fs.copyFile("hello.txt", "./copy2/copy.txt", function (err) {
+//     if (err) console.error(err.message);
+//     else console.log("complete");
+// })
